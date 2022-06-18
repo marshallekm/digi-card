@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #22252D;
+  font-family: 'Inter', sans-serif;
 }
 
 .profile-pic {
@@ -18,11 +19,14 @@ color:white;
 
 .info > h2 {
   color: #FFA45C;
-  font-size:16px;
+  font-size:20px;
+  font-weight: 400;
 }
 
 .info > h3 {
   color: white;
+  font-size:16px;
+  font-weight: 400;
 }
 
 .about, .interests {
@@ -32,12 +36,13 @@ color:white;
 
 .about-h1{
   color:white;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .about-h2 {
   color:white;
   font-size:11px;
+  font-weight: 400;
 }
 
 .interests {
@@ -45,11 +50,12 @@ color:white;
 }
 
 .interests > h1 {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .interests > h2 {
   font-size: 11px;
+  font-weight: 400;
 }
 
 .linked-in {
@@ -62,6 +68,7 @@ color:white;
   height:60px;
   width:350px;
   border-radius: 0 0 13px 13px;
+  color:#161619;
 }
 
 .email {
@@ -70,7 +77,28 @@ padding: 13px;
 width:130px;
 border:none;
 background-color: #FFFFFF;
-font-weight:bold;
+font-weight:600;
+}
+
+.envelope {
+  margin-right:4px;
+}
+
+.link {
+  margin-right: 4px;
+}
+
+.icon{
+display:flex;
+justify-content: space-around;
+align-self: center;
+padding-top:14px;
+font-size: 30px;
+color: #918E9B;
+}
+
+.font-awesome{
+  margin-top:50px;
 }
 
 .linked-in {
@@ -80,7 +108,7 @@ width:130px;
 border:none;
 background-color: #5093E2;
 color:white;
-font-weight:bold;
+font-weight:600;
 }
 .container {
 width:350px;
