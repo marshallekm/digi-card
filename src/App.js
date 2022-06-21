@@ -13,6 +13,9 @@ export default function App() {
       <About />
       <Interests />
       <Footer />
+      <footer className= "page-footer">
+
+      </footer>
     </div>
   )
 }

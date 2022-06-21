@@ -36,12 +36,12 @@ color:white;
 
 .about-h1{
   color:white;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .about-h2 {
   color:white;
-  font-size:11px;
+  font-size:14px;
   font-weight: 400;
 }
 
@@ -50,11 +50,11 @@ color:white;
 }
 
 .interests > h1 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .interests > h2 {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -63,21 +63,20 @@ color:white;
 }
 
 .footing {
-  margin-top:28px;
-  background-color: white;
   height:60px;
   width:350px;
   border-radius: 0 0 13px 13px;
-  color:#161619;
+  background-color:#1A1B21;
 }
 
 .email {
 border-radius: 10px;
 padding: 13px;
-width:130px;
+width:140px;
 border:none;
 background-color: #FFFFFF;
 font-weight:600;
+margin-right: -5px;
 }
 
 .envelope {
@@ -93,7 +92,7 @@ display:flex;
 justify-content: space-around;
 align-self: center;
 padding-top:14px;
-font-size: 30px;
+font-size: 34px;
 color: #918E9B;
 }
 
@@ -104,7 +103,7 @@ color: #918E9B;
 .linked-in {
 border-radius: 10px;
 padding: 13px;
-width:130px;
+width:140px;
 border:none;
 background-color: #5093E2;
 color:white;
@@ -112,11 +111,14 @@ font-weight:600;
 }
 .container {
 width:350px;
+padding-bottom: 13px;
 height: 650px;
-background-color: #1A1B21;
+background-color: #383a47;
 position: absolute;
-border-radius: 13px;
 top: 5%;
 left: 35%;
-margin-bottom: 100px;
+}
+
+.page-footer {
+padding-bottom: 50px;
 }
