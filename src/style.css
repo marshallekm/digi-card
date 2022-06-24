@@ -18,6 +18,7 @@ color:white;
 }
 
 .info > h2 {
+  margin-top:-16px;
   color: #FFA45C;
   font-size:20px;
   font-weight: 400;
